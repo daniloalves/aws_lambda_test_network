@@ -14,7 +14,7 @@ help(){
 }
 
 if [ -d "requests" ]; then
-    zip -r lambda_test_network.zip . -x "env/*" 
+    zip -r aws_lambda_test_network.zip . -x "env/*" 
 else
     help
 fi
